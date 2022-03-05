@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="m11q" fetch="https://github.com/samsung-m11q" />
+
+<!-- m11q trees -->
+        <project path="device/samsung/m11q" name="android_device_samsung_m11q" remote="m11q" revision="lineage-18.1" clone-depth="1" />
+        <project path="vendor/samsung/m11q" name="android_vendor_samsung_m11q" remote="m11q" revision="lineage-18.1" clone-depth="1" />
+        <project path="kernel/samsung/m11q" name="android_kernel_samsung_m11q" remote="m11q" revision="lineage-18.1" clone-depth="1" />
+</manifest>
